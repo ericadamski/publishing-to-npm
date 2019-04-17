@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "alias": "publish-to-npm",
+  "builds": [
+    { "src": "./presentation/deck.mdx", "use": "@now/mdx-deck" },
+    { "src": "./app/next.config.js", "use": "@now/next" }
+  ],
+  "public": true,
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "routes": [
+    { "src": "/main.js", "dest": "/presentation/main.js" },
+    { "src": "/presentation/(.*)", "dest": "/presentation/index.html" },
+    { "src": "/(.*)", "dest": "/app/$1" }
+  ]
+}
