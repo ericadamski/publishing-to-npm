@@ -1,0 +1,13 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mdx-deck": "^2.2.1"
+  },
+  "scripts": {
+    "now-build": "mdx-deck build deck.mdx",
+    "start": "mdx-deck deck.mdx"
+  }
+}

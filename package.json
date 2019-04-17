@@ -1,0 +1,8 @@
+{
+  "name": "publishing-to-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ericadamski/publishing-to-npm.git",
+  "author": "Eric Adamski <er.adamski@gmail.com>",
+  "license": "MIT"
+}

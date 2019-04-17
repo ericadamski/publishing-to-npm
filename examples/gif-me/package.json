@@ -1,0 +1,27 @@
+{
+  "name": "@ericadamski/gif-me",
+  "version": "1.0.1",
+  "author": "Eric Adamski <er.adamski@gmail.com>",
+  "repository": "git@github.com:ericadamski/publishing-to-npm.git",
+  "keywords": [
+    "gif",
+    "giphy",
+    "search"
+  ],
+  "bin": {
+    "gif-me": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "copy-paste": "^1.3.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "pretty-ms": "^4.0.0"
+  }
+}
