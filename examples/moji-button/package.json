@@ -1,0 +1,32 @@
+{
+  "name": "@ericadamski/moji-button",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook",
+    "prepublishOnly": "yarn build",
+    "build": "webpack --progress"
+  },
+  "files": [
+    "./dist/index.js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.0.9",
+    "@storybook/react": "^5.0.9",
+    "babel-loader": "^8.0.5",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "dependencies": {
+    "moji-translate": "^1.0.8"
+  }
+}
