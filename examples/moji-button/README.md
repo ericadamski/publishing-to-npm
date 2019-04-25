@@ -20,3 +20,5 @@ ReactDOM.render(
     document.getElementById('root')
 );
 ```
+
+[![Edit moji-button Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/8224wv4j99?fontsize=14)

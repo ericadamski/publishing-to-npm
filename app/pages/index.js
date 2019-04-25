@@ -1,1 +1,1 @@
-export default () => <h1>Hello World</h1>;
+export default () => <a href="/presentation">Slides</a>;
